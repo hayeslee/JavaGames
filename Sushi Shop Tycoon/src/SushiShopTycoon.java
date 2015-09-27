@@ -764,13 +764,13 @@ public class SushiShopTycoon extends JPanel implements MouseListener,
 			// Draw total money
 			g.setColor(Color.BLACK);
 			g.drawString("Total Money: $" + String.valueOf(totalMoney) + "0",
-					950, 700);
+					920, 700);
 			// Draw breaking news
 			g.drawString("Breaking News: ", 140, 710);
-			g.drawString(BREAKING_NEWS[breakingNewsIndex], 260, 710);
+			g.drawString(BREAKING_NEWS[breakingNewsIndex], 290, 710);
 
 			// Print Day and Time
-			g.drawString("Day:   " + String.valueOf(totalDays), 950, 715);
+			g.drawString("Day:   " + String.valueOf(totalDays), 920, 715);
 
 			// Timer
 			g.setColor(Color.RED);
