@@ -6,8 +6,7 @@ import java.io.IOException;
 import javax.swing.*;
 
 /**
- * Plays a game of Neon Hex which is meant for 3-5 year olds. This is why the AI
- * is very simple to beat.
+ * Plays a game of PlanIT
  * 
  * @author Jeffrey Wang and Hayes Lee
  * @version February 2016
